@@ -42,7 +42,7 @@ export default function GridWithText() {
       </div>
 
       {/* Bottom Left - Text Section */}
-      <div className="bg-black text-white p-16 flex flex-col">
+      <div className="bg-white text-black p-16 flex flex-col">
         <h2 className="text-3xl font-light mb-8">+ Kvalitet & Håndværk</h2>
         <p className="text-lg font-light tracking-wide leading-relaxed mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
