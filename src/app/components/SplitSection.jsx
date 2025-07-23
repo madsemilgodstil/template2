@@ -18,10 +18,9 @@ export default function SplitSection() {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-8 z-10">
-          <h2 className="text-4xl font-bold mb-4">Håndværk & Kvalitet</h2>
-          <p className="text-xl text-center">
-            Professionelt arbejde med fokus på detaljer og holdbare løsninger
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+          <p className="text-lg font-light tracking-wide">
+            + Håndværk med sans for detaljer
           </p>
         </div>
       </div>
@@ -40,10 +39,9 @@ export default function SplitSection() {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-8 z-10">
-          <h2 className="text-4xl font-bold mb-4">Moderne Design</h2>
-          <p className="text-xl text-center">
-            Tidssvarende løsninger der matcher dine behov og ønsker
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+          <p className="text-lg font-light tracking-wide">
+            + Moderne løsninger til dit hjem
           </p>
         </div>
       </div>
