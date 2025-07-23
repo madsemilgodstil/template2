@@ -1,5 +1,5 @@
-'use client';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
 
 export default function SplitSection() {
   return (
@@ -15,8 +15,6 @@ export default function SplitSection() {
           quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         {/* Text overlay */}
         <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
@@ -36,8 +34,6 @@ export default function SplitSection() {
           quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         {/* Text overlay */}
         <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">

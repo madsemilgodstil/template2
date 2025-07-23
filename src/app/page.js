@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation';
 import SplitSection from './components/SplitSection';
 import Hero from './components/Hero';
+import GridSection from './components/GridSection';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navigation />
       <SplitSection />
       <Hero />
+      <GridSection />
     </main>
   );
 }
