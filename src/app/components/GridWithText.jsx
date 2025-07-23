@@ -16,7 +16,7 @@ export default function GridWithText() {
           quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Moderne løsninger
           </p>
@@ -34,7 +34,7 @@ export default function GridWithText() {
           quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Kreativt design
           </p>
@@ -68,7 +68,7 @@ export default function GridWithText() {
           quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Professionel service
           </p>

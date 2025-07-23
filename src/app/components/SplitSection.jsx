@@ -16,7 +16,7 @@ export default function SplitSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Håndværk med sans for detaljer
           </p>
@@ -35,7 +35,7 @@ export default function SplitSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Moderne løsninger til dit hjem
           </p>

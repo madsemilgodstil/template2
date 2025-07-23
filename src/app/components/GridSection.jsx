@@ -16,7 +16,7 @@ export default function GridSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
 
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Kvalitet i hver detalje
           </p>
@@ -35,7 +35,7 @@ export default function GridSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
 
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">+ Tidløst design</p>
         </div>
       </div>
@@ -52,7 +52,7 @@ export default function GridSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
 
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Bæredygtige materialer
           </p>
@@ -71,7 +71,7 @@ export default function GridSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
 
-        <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
+        <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
             + Professionel rådgivning
           </p>
