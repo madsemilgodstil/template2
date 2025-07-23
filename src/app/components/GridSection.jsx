@@ -43,7 +43,7 @@ export default function GridSection() {
       {/* Bottom Left */}
       <div className="relative group cursor-pointer">
         <Image
-          src="/stock_5.jpg"
+          src="/stock_3.jpg"
           alt="Tredje billede"
           className="object-cover"
           fill
@@ -62,7 +62,7 @@ export default function GridSection() {
       {/* Bottom Right */}
       <div className="relative group cursor-pointer">
         <Image
-          src="/stock_6.jpg"
+          src="/stock_4.jpg"
           alt="Fjerde billede"
           className="object-cover"
           fill
