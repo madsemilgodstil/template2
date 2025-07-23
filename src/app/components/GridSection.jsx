@@ -1,5 +1,5 @@
-'use client';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
 
 export default function GridSection() {
   return (
@@ -7,7 +7,7 @@ export default function GridSection() {
       {/* Top Left */}
       <div className="relative group cursor-pointer">
         <Image
-          src="/stock_3.jpg"
+          src="/stock_1.jpg"
           alt="Første billede"
           className="object-cover"
           fill
@@ -26,7 +26,7 @@ export default function GridSection() {
       {/* Top Right */}
       <div className="relative group cursor-pointer">
         <Image
-          src="/stock_4.jpg"
+          src="/stock_2.jpg"
           alt="Andet billede"
           className="object-cover"
           fill
@@ -36,9 +36,7 @@ export default function GridSection() {
         />
 
         <div className="absolute inset-0 flex flex-col justify-start items-start text-white p-8 pt-32 z-10">
-          <p className="text-lg font-light tracking-wide">
-            + Tidløst design
-          </p>
+          <p className="text-lg font-light tracking-wide">+ Tidløst design</p>
         </div>
       </div>
 
