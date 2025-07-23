@@ -1,8 +1,10 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
+import { useState } from 'react';
+import ContactModal from './ContactModal';
 
 export default function GridWithText() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <section className="w-full grid grid-cols-2 grid-rows-2 h-screen">
       {/* Top Left */}
@@ -49,12 +51,16 @@ export default function GridWithText() {
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
           nostrud exercitation ullamco laboris.
         </p>
-        <Link 
-          href="/kontakt" 
-          className="text-lg font-light tracking-wide mt-auto hover:underline"
+        <button 
+          onClick={() => setIsModalOpen(true)}
+          className="text-lg font-light tracking-wide mt-auto hover:underline text-left"
         >
           + Kontakt os
-        </Link>
+        </button>
+        <ContactModal 
+          isOpen={isModalOpen} 
+          onClose={() => setIsModalOpen(false)} 
+        />
       </div>
 
       {/* Bottom Right */}
