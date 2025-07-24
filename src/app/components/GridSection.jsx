@@ -7,7 +7,7 @@ export default function GridSection() {
       {/* Top Left */}
       <div className="relative group cursor-pointer">
         <Image
-          src="/stock_1.jpg"
+          src="/gips.jpg"
           alt="Første billede"
           className="object-cover"
           fill
@@ -18,7 +18,10 @@ export default function GridSection() {
 
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Kvalitet i hver detalje
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">
+              +
+            </span>
+            Kvalitet i hver detalje
           </p>
         </div>
       </div>
@@ -36,7 +39,12 @@ export default function GridSection() {
         />
 
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
-          <p className="text-lg font-light tracking-wide"><span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Tidløst design</p>
+          <p className="text-lg font-light tracking-wide">
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">
+              +
+            </span>
+            Tidløst design
+          </p>
         </div>
       </div>
 
@@ -54,7 +62,10 @@ export default function GridSection() {
 
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Bæredygtige materialer
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">
+              +
+            </span>
+            Bæredygtige materialer
           </p>
         </div>
       </div>
@@ -73,7 +84,10 @@ export default function GridSection() {
 
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Professionel rådgivning
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">
+              +
+            </span>
+            Professionel rådgivning
           </p>
         </div>
       </div>
