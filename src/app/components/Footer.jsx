@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -35,6 +36,22 @@ export default function Footer() {
               Instagram: @woodblock
             </a>
           </div>
+        </div>
+
+        {/* Legal Links */}
+        <div className="border-t border-gray-800 mt-8 pt-8 flex justify-center space-x-8">
+          <Link 
+            href="/privatlivspolitik" 
+            className="text-sm text-gray-300 hover:text-white hover:underline transition-colors"
+          >
+            Privatlivspolitik
+          </Link>
+          <Link 
+            href="/handelsbetingelser" 
+            className="text-sm text-gray-300 hover:text-white hover:underline transition-colors"
+          >
+            Handelsbetingelser
+          </Link>
         </div>
       </div>
     </footer>
