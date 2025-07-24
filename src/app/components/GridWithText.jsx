@@ -20,7 +20,7 @@ export default function GridWithText() {
         />
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            + Moderne løsninger
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Moderne løsninger
           </p>
         </div>
       </div>
@@ -38,14 +38,14 @@ export default function GridWithText() {
         />
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            + Kreativt design
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Kreativt design
           </p>
         </div>
       </div>
 
       {/* Bottom Left - Text Section */}
       <div className="bg-white text-black p-16 flex flex-col">
-        <h2 className="text-3xl font-light mb-8">+ Kvalitet & Håndværk</h2>
+        <h2 className="text-3xl font-light mb-8 group-hover:cursor-pointer"><span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Kvalitet & Håndværk</h2>
         <p className="text-lg font-light tracking-wide leading-relaxed mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
@@ -76,7 +76,7 @@ export default function GridWithText() {
         />
         <div className="absolute inset-0 flex flex-col justify-start items-start text-black p-8 pt-32 z-10">
           <p className="text-lg font-light tracking-wide">
-            + Professionel service
+            <span className="inline-block transition-transform group-hover:rotate-45 mr-1">+</span>Professionel service
           </p>
         </div>
       </div>
