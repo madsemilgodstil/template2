@@ -18,8 +18,8 @@ export default function Navigation() {
               <Link href="/ydelser" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">
                 Ydelser
               </Link>
-              <Link href="/projekter" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">
-                Projekter
+              <Link href="/team" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">
+                Team
               </Link>
             </div>
           </div>
@@ -77,8 +77,8 @@ export default function Navigation() {
           <Link href="/ydelser" className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-900">
             Ydelser
           </Link>
-          <Link href="/projekter" className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-900">
-            Projekter
+          <Link href="/team" className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-900">
+            Team
           </Link>
           <div className="px-3 py-2 flex space-x-4">
             <a href="#" className="text-gray-300 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
